@@ -1,0 +1,23 @@
+{
+  "name": "zmd-experimental-publisher",
+  "version": "0.0.0",
+  "description": "Tool allowing to publish content with a manifest using the ZMarkdown server",
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StaloneLab/zmarkdown-experiments.git#master"
+  },
+  "keywords": [
+    "zmarkdown"
+  ],
+  "author": "Titouan (Stalone) S. <stalone@boxph.one>",
+  "bugs": {
+    "url": "https://github.com/StaloneLab/zmarkdown-experiments/issues"
+  },
+  "homepage": "https://github.com/StaloneLab/zmarkdown-experiments/tree/master#readme"
+}
