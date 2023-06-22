@@ -56,9 +56,14 @@ const req = request(zmdFullUrl, {
 	});
 
 	res.on("end", () => {
-		let [content, metadata, errors] = JSON.parse(zmdResponse);
+		try {
+			let [content, metadata, errors] = JSON.parse(zmdResponse);
 
-		console.log(content);
+			console.log(content);
+			console.error(errors);
+		} catch(e) {
+			console.error(e, zmdResponse);
+		}
 	});
 });
 
